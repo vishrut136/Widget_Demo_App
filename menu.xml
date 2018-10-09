@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Time Picker Widget"
+        android:id="@+id/id_time_picker"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:title="Date Picker Widget"
+        android:id="@+id/id_date_picker"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+    <item
+        android:title="Play Song"
+        android:id="@+id/id_play_song"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+    <item
+        android:title="Stop Song"
+        android:id="@+id/id_stop_song"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
+    <item
+        android:title="Exit"
+        android:id="@+id/id_exit"
+        android:orderInCategory="104"
+        app:showAsAction="never" />
+
+
+</menu>
